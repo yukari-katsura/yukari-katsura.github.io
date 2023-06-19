@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="b5f74a7c-cb2b-4605-b3ca-645c73e3213e" data-root-id="p11466" style="display: contents;"></div>
+  
+    <script type="application/json" id="p11589">
+      {"97372128-dbaf-4f14-bffc-1faf9b1c5f22":{"version":"3.1.1","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p11466","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p11467"},"y_range":{"type":"object","name":"DataRange1d","id":"p11468"},"x_scale":{"type":"object","name":"LogScale","id":"p11480"},"y_scale":{"type":"object","name":"LogScale","id":"p11482"},"title":{"type":"object","name":"Title","id":"p11469","attributes":{"text":"Electrical conductivity vs. ZT"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p11519","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p11463","attributes":{"selected":{"type":"object","name":"Selection","id":"p11464","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p11465"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":[8167.372881355936,11073.446327683621,14915.25423728815,20173.022598870055,29219.63276836158,40617.93785310735,55798.022598870055,74265.53672316385,98396.89265536724,127722.45762711864,159392.65536723164,199124.29378531073,8185.028248587577,10600.282485875709,13481.638418079103,17803.67231638419,24957.627118644075,35903.95480225989,50141.24293785311,68622.8813559322,91811.4406779661,121606.63841807909,155660.3107344633,193478.1073446328,55346.97923619607,147403.66685633932,171714.36565430614],"shape":[27],"dtype":"object","order":"little"}],["y",{"type":"ndarray","array":[-2334.9152542372885,-2221.713747645951,-2126.497175141244,-2037.3634651600757,-1942.5612052730696,-1871.8267419962337,-1807.3634651600757,-1784.952919020716,-1786.8738229755184,-1807.1186440677968,-1863.370998116761,-1890.414312617703,-2305.065913370998,-2221.676082862524,-2150.263653483992,-2043.1450094161962,-1948.1920903954808,-1841.600753295669,-1771.0922787193979,-1724.802259887006,-1720.6779661016951,-1746.9303201506593,-1773.5216572504712,-1836.2335216572508,0.05103448275862074,0.09379310344827588,0.09875862068965521],"shape":[27],"dtype":"object","order":"little"}],["SID",{"type":"ndarray","array":["274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","24771","24771","24771"],"shape":[27],"dtype":"object","order":"little"}],["figure_id",{"type":"ndarray","array":["8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","8438","28444","28444","28444"],"shape":[27],"dtype":"object","order":"little"}],["sample_id",{"type":"ndarray","array":["10330","10330","10330","10330","10330","10330","10330","10330","10330","10330","10330","10330","10331","10331","10331","10331","10331","10331","10331","10331","10331","10331","10331","10331","36125","36126","36126"],"shape":[27],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p11520","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p11521"}}},"glyph":{"type":"object","name":"Scatter","id":"p11516","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p11517","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p11518","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p11475","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p11498"},{"type":"object","name":"WheelZoomTool","id":"p11499"},{"type":"object","name":"BoxZoomTool","id":"p11500","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p11501","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p11502"},{"type":"object","name":"ResetTool","id":"p11503"},{"type":"object","name":"HelpTool","id":"p11504"},{"type":"object","name":"HoverTool","id":"p11522","attributes":{"renderers":"auto","tooltips":[["SID","@SID"],["Figure ID","@figure_id"],["Sample ID","@sample_id"]]}}]}},"left":[{"type":"object","name":"LogAxis","id":"p11491","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p11493","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p11494"},"axis_label":"ZT","major_label_policy":{"type":"object","name":"AllLabels","id":"p11492"}}}],"below":[{"type":"object","name":"LogAxis","id":"p11484","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p11486","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p11487"},"axis_label":"Electrical conductivity","major_label_policy":{"type":"object","name":"AllLabels","id":"p11485"}}}],"center":[{"type":"object","name":"Grid","id":"p11490","attributes":{"axis":{"id":"p11484"}}},{"type":"object","name":"Grid","id":"p11497","attributes":{"dimension":1,"axis":{"id":"p11491"}}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p11589').textContent;
+              const render_items = [{"docid":"97372128-dbaf-4f14-bffc-1faf9b1c5f22","roots":{"p11466":"b5f74a7c-cb2b-4605-b3ca-645c73e3213e"},"root_ids":["p11466"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

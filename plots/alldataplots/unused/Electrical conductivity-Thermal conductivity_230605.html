@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="b76240e9-799e-4a52-87ea-cb552c4850e3" data-root-id="p11339" style="display: contents;"></div>
+  
+    <script type="application/json" id="p11462">
+      {"925bbf51-de3d-419a-9c01-aa84521154c9":{"version":"3.1.1","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p11339","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p11340"},"y_range":{"type":"object","name":"DataRange1d","id":"p11341"},"x_scale":{"type":"object","name":"LogScale","id":"p11353"},"y_scale":{"type":"object","name":"LogScale","id":"p11355"},"title":{"type":"object","name":"Title","id":"p11342","attributes":{"text":"Electrical conductivity vs. Thermal conductivity"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p11392","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p11336","attributes":{"selected":{"type":"object","name":"Selection","id":"p11337","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p11338"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":[7987.2881355932295,11733.757062146902,15483.757062146902,20190.677966101703,28700.564971751417,41006.355932203405,55215.39548022599,77012.71186440678,99283.19209039549,128199.15254237289,162316.38418079098,200243.64406779665,8456.920903954808,10310.734463276844,14064.265536723167,18781.779661016946,24445.62146892656,36747.881355932215,51426.55367231639,68965.395480226,93135.59322033901,121574.85875706216,155713.27683615818,195074.1525423729],"shape":[24],"dtype":"object","order":"little"}],["y",{"type":"ndarray","array":[-1039.3785310734465,-1105.3483992467045,-1165.3483992467045,-1207.5141242937855,-1220.1318267419963,-1215.1412429378536,-1192.3917137476462,-1140.3954802259889,-1088.4369114877593,-1001.1864406779662,-920.320150659134,-797.9661016949153,-1045.386064030132,-1111.20527306968,-1165.235404896422,-1189.4915254237292,-1213.822975517891,-1214.802259887006,-1198.060263653484,-1145.7250470809795,-1081.9774011299437,-1000.6591337099812,-883.9736346516011,-737.8531073446329],"shape":[24],"dtype":"object","order":"little"}],["SID",{"type":"ndarray","array":["274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274","274"],"shape":[24],"dtype":"object","order":"little"}],["figure_id",{"type":"ndarray","array":["8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437","8437"],"shape":[24],"dtype":"object","order":"little"}],["sample_id",{"type":"ndarray","array":["10330","10330","10330","10330","10330","10330","10330","10330","10330","10330","10330","10330","10331","10331","10331","10331","10331","10331","10331","10331","10331","10331","10331","10331"],"shape":[24],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p11393","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p11394"}}},"glyph":{"type":"object","name":"Scatter","id":"p11389","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p11390","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p11391","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p11348","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p11371"},{"type":"object","name":"WheelZoomTool","id":"p11372"},{"type":"object","name":"BoxZoomTool","id":"p11373","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p11374","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p11375"},{"type":"object","name":"ResetTool","id":"p11376"},{"type":"object","name":"HelpTool","id":"p11377"},{"type":"object","name":"HoverTool","id":"p11395","attributes":{"renderers":"auto","tooltips":[["SID","@SID"],["Figure ID","@figure_id"],["Sample ID","@sample_id"]]}}]}},"left":[{"type":"object","name":"LogAxis","id":"p11364","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p11366","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p11367"},"axis_label":"Thermal conductivity","major_label_policy":{"type":"object","name":"AllLabels","id":"p11365"}}}],"below":[{"type":"object","name":"LogAxis","id":"p11357","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p11359","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p11360"},"axis_label":"Electrical conductivity","major_label_policy":{"type":"object","name":"AllLabels","id":"p11358"}}}],"center":[{"type":"object","name":"Grid","id":"p11363","attributes":{"axis":{"id":"p11357"}}},{"type":"object","name":"Grid","id":"p11370","attributes":{"dimension":1,"axis":{"id":"p11364"}}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p11462').textContent;
+              const render_items = [{"docid":"925bbf51-de3d-419a-9c01-aa84521154c9","roots":{"p11339":"b76240e9-799e-4a52-87ea-cb552c4850e3"},"root_ids":["p11339"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

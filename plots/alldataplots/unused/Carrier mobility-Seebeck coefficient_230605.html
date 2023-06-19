@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="ebaa047c-a1ac-41c4-b6ba-c78e2a7cc27b" data-root-id="p10196" style="display: contents;"></div>
+  
+    <script type="application/json" id="p10319">
+      {"3be9f509-2654-405c-b24d-75973fd65754":{"version":"3.1.1","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p10196","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p10197"},"y_range":{"type":"object","name":"DataRange1d","id":"p10198"},"x_scale":{"type":"object","name":"LogScale","id":"p10210"},"y_scale":{"type":"object","name":"LogScale","id":"p10212"},"title":{"type":"object","name":"Title","id":"p10199","attributes":{"text":"Carrier mobility vs. Seebeck coefficient"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p10249","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p10193","attributes":{"selected":{"type":"object","name":"Selection","id":"p10194","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p10195"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":[1.6380697050938348e-05,1.7855227882037545e-05,2.844504021447722e-05,4.0643431635388744e-05,6.249329758713136e-05,9.010723860589814e-05,9.238605898123327e-05,0.00010203753351206436,0.00010806970509383378],"shape":[9],"dtype":"object","order":"little"}],["y",{"type":"ndarray","array":[0.0004428109842086503,0.0004734553456585411,0.0005116668474639309,0.0005562460289172308,0.0007118636582001891,0.000718381657859257,0.000724753211734259,0.0006693176711246105,0.0006872716143129446],"shape":[9],"dtype":"object","order":"little"}],["SID",{"type":"ndarray","array":["37340","37340","37340","37340","37340","37340","37340","37340","37340"],"shape":[9],"dtype":"object","order":"little"}],["figure_id",{"type":"ndarray","array":["36151","36151","36151","36151","36151","36151","36151","36151","36151"],"shape":[9],"dtype":"object","order":"little"}],["sample_id",{"type":"ndarray","array":["46273","46274","46275","46276","46277","46278","46279","46280","46281"],"shape":[9],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p10250","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p10251"}}},"glyph":{"type":"object","name":"Scatter","id":"p10246","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p10247","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p10248","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p10205","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p10228"},{"type":"object","name":"WheelZoomTool","id":"p10229"},{"type":"object","name":"BoxZoomTool","id":"p10230","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p10231","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p10232"},{"type":"object","name":"ResetTool","id":"p10233"},{"type":"object","name":"HelpTool","id":"p10234"},{"type":"object","name":"HoverTool","id":"p10252","attributes":{"renderers":"auto","tooltips":[["SID","@SID"],["Figure ID","@figure_id"],["Sample ID","@sample_id"]]}}]}},"left":[{"type":"object","name":"LogAxis","id":"p10221","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p10223","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p10224"},"axis_label":"Seebeck coefficient","major_label_policy":{"type":"object","name":"AllLabels","id":"p10222"}}}],"below":[{"type":"object","name":"LogAxis","id":"p10214","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p10216","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p10217"},"axis_label":"Carrier mobility","major_label_policy":{"type":"object","name":"AllLabels","id":"p10215"}}}],"center":[{"type":"object","name":"Grid","id":"p10220","attributes":{"axis":{"id":"p10214"}}},{"type":"object","name":"Grid","id":"p10227","attributes":{"dimension":1,"axis":{"id":"p10221"}}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p10319').textContent;
+              const render_items = [{"docid":"3be9f509-2654-405c-b24d-75973fd65754","roots":{"p10196":"ebaa047c-a1ac-41c4-b6ba-c78e2a7cc27b"},"root_ids":["p10196"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="b28f9356-f5d8-40be-bc78-2d4f43307aec" data-root-id="p15276" style="display: contents;"></div>
+  
+    <script type="application/json" id="p15399">
+      {"2b943961-5993-45d1-9865-0ec66c4fa5da":{"version":"3.1.1","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p15276","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p15277"},"y_range":{"type":"object","name":"DataRange1d","id":"p15278"},"x_scale":{"type":"object","name":"LogScale","id":"p15290"},"y_scale":{"type":"object","name":"LogScale","id":"p15292"},"title":{"type":"object","name":"Title","id":"p15279","attributes":{"text":"Temperature vs. Magnetic field strength (H)"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p15329","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p15273","attributes":{"selected":{"type":"object","name":"Selection","id":"p15274","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p15275"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":[83.5491,138.849,193.793,248.417,304.548,1.819607843137255,2.047058823529412,2.250980392156863,2.4235294117647057,2.611764705882353,2.8000000000000003,2.996078431372549,3.2078431372549026,3.435294117647059,3.6235294117647063,1.819607843137255,2.0235294117647062,2.2666666666666666,2.47843137254902,2.7529411764705887,2.9803921568627456,3.2784313725490195,3.537254901960784,3.75686274509804],"shape":[24],"dtype":"object","order":"little"}],["y",{"type":"ndarray","array":[117780,120590,128419,142384,154676,2672.029468255132,2450.3327001466273,2193.6311791788853,1971.9344110703814,1575.2138786656894,1470.1996200879767,1085.1473386363639,863.4505705278593,606.7490495601173,338.3792776392966,2158.626426319648,1598.5503805718479,945.1283271994133,758.4363119501472,548.4077947947213,396.720532404692,233.36501906158338,151.6872623900299,116.68250953079198],"shape":[24],"dtype":"object","order":"little"}],["SID",{"type":"ndarray","array":["25291","25291","25291","25291","25291","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616","30616"],"shape":[24],"dtype":"object","order":"little"}],["figure_id",{"type":"ndarray","array":["22762","22762","22762","22762","22762","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347","29347"],"shape":[24],"dtype":"object","order":"little"}],["sample_id",{"type":"ndarray","array":["28294","28294","28294","28294","28294","37685","37685","37685","37685","37685","37685","37685","37685","37685","37685","37687","37687","37687","37687","37687","37687","37687","37687","37687"],"shape":[24],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p15330","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p15331"}}},"glyph":{"type":"object","name":"Scatter","id":"p15326","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p15327","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p15328","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p15285","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p15308"},{"type":"object","name":"WheelZoomTool","id":"p15309"},{"type":"object","name":"BoxZoomTool","id":"p15310","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p15311","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p15312"},{"type":"object","name":"ResetTool","id":"p15313"},{"type":"object","name":"HelpTool","id":"p15314"},{"type":"object","name":"HoverTool","id":"p15332","attributes":{"renderers":"auto","tooltips":[["SID","@SID"],["Figure ID","@figure_id"],["Sample ID","@sample_id"]]}}]}},"left":[{"type":"object","name":"LogAxis","id":"p15301","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p15303","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p15304"},"axis_label":"Magnetic field strength (H)","major_label_policy":{"type":"object","name":"AllLabels","id":"p15302"}}}],"below":[{"type":"object","name":"LogAxis","id":"p15294","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p15296","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p15297"},"axis_label":"Temperature","major_label_policy":{"type":"object","name":"AllLabels","id":"p15295"}}}],"center":[{"type":"object","name":"Grid","id":"p15300","attributes":{"axis":{"id":"p15294"}}},{"type":"object","name":"Grid","id":"p15307","attributes":{"dimension":1,"axis":{"id":"p15301"}}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p15399').textContent;
+              const render_items = [{"docid":"2b943961-5993-45d1-9865-0ec66c4fa5da","roots":{"p15276":"b28f9356-f5d8-40be-bc78-2d4f43307aec"},"root_ids":["p15276"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
